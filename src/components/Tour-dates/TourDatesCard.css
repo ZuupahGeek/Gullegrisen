@@ -1,0 +1,277 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 599px) {
+    .card {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card-info {
+        background-color:#faeefa;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        border: 7px solid #d281b5;
+        border-radius: 2rem;
+        width: 15rem;
+        height: 7rem;
+    }
+    .card-info h3 {
+        margin-bottom: -1rem;
+    }
+    .card-info p {
+        margin-bottom: 0.1rem;
+        font-weight: bold;
+    }
+    .card-link {
+        border: 2px solid black;
+        border-radius: 1rem;
+        width: 10rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: #9f2c75;
+    }
+    a {
+       text-decoration: none;
+       color: #faeefa;
+      
+    }
+    a:visited {
+        color: #faeefa;
+    }
+    a:hover {
+        font-size: 1.1rem;
+         color: #f40097;
+    }
+    a:active {
+        color: green;
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .card {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card-info {
+        background-color:#faeefa;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        border: 7px solid #d281b5;
+        border-radius: 2rem;
+        width: 30rem;
+        height: 9rem;
+    }
+    .card-info h3 {
+        font-size: 1.3rem;
+        margin-bottom: -1rem;
+        
+    }
+    .card-info p {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+    }
+    .card-link {
+        border: 2px solid black;
+        border-radius: 1rem;
+        width: 10rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: #9f2c75;
+    }
+    a {
+       text-decoration: none;
+       color: #faeefa;
+      
+    }
+    a:visited {
+        color: #faeefa;
+    }
+    a:hover {
+        font-size: 1.1rem;
+         color: #f40097;
+    }
+    a:active {
+        color: green;
+        font-size: 1rem;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .card {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card-info {
+        background-color:#faeefa;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        border: 7px solid #d281b5;
+        border-radius: 2rem;
+        width: 30rem;
+        height: 9rem;
+    }
+    .card-info h3 {
+        font-size: 1.3rem;
+        margin-bottom: -1rem;
+    }
+    .card-info p {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+    }
+    .card-link {
+        border: 2px solid black;
+        border-radius: 1rem;
+        width: 10rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: #9f2c75;
+    }
+    a {
+       text-decoration: none;
+       color: #faeefa;
+      
+    }
+    a:visited {
+        color: #faeefa;
+    }
+    a:hover {
+        font-size: 1.1rem;
+         color: #f40097;
+    }
+    a:active {
+        color: green;
+        font-size: 1rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .card {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card-info {
+        background-color:#faeefa;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        border: 7px solid #d281b5;
+        border-radius: 2rem;
+        width: 30rem;
+        height: 9rem;
+    }
+    .card-info h3 {
+        font-size: 1.3rem;
+        margin-bottom: -1rem;
+    }
+    .card-info p {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+    }
+    .card-link {
+        border: none;
+        border-radius: 1rem;
+        width: 20rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color:#faeefa;
+    }
+    a {
+       text-decoration: none;
+       color: black;
+       font-size: 1.6rem;
+      
+    }
+    a:visited {
+        color: black;
+    }
+    a:hover {
+        font-size: 1.8rem;
+         color: #f40097;
+    }
+    a:active {
+        color: black;
+        font-size: 1.6rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .card {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card-info {
+        background-color:#faeefa;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        border: 7px solid #d281b5;
+        border-radius: 2rem;
+        width: 30rem;
+        height: 9rem;
+    }
+    .card-info h3 {
+        font-size: 1.3rem;
+        margin-bottom: -1rem;
+    }
+    .card-info p {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+    }
+    .card-link {
+        border: none;
+        border-radius: 1rem;
+        width: 20rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color:#faeefa;
+    }
+    a {
+       text-decoration: none;
+       color: black;
+       font-size: 1.6rem;
+      
+    }
+    a:visited {
+        color: black;
+    }
+    a:hover {
+        font-size: 1.8rem;
+         color: #f40097;
+    }
+    a:active {
+        color: black;
+        font-size: 1.6rem;
+    }
+}
