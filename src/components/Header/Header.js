@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import header_img from '../../Assets/header.png'
+import header_img from '../../Assets/gullegrisen_header.jpg'
 
 const Header = () => {
   return (
@@ -8,8 +8,9 @@ const Header = () => {
       <div className='header'>
         <img src={header_img} alt="Affischen för KRIS-turnén"/>
       </div>
-      <h2>Med på hela turnén som konferencier & uppvärmare är <span>Lisa Dahlin!</span></h2>
-      <h3>Vilka år: covid, krig, inflation, Qatar-vm, portvinstå, bältros, rövböld, näringsbrist, ett stort jävla drev men kanske framförallt att vara tvungen att ”bli vuxen”. KRIS är en föreställning där Jonte Tengwall och Marcus Thapper gör pissrolig standup istället för att ta tag i skiten. Efter fem hyllade provföreställningar åker dom nu ut med varsin tajt timme på Sverigeturné.</h3>
+      
+      <h3>Gullegrisen är en förtjusande standupföreställning av och med Clara Clara Kristiansen. Med ett glas vin i handen och en glimt i ögat levererar hon en timmes hejdundrande komedi. Det blir högt och lågt och alldeles, alldeles underbart. Clara är rapp i käften och grov i munnen men framför allt är hon fullkomligt bedårande.</h3>
+      <h3>Clara Clara Kristiansen har hörts i Tankesmedjan i P3 och Guldörat-nominerade podden Jag är Kinky. Hon har uppträtt på flera av landets mest prestigefyllda scener och är just nu aktuell i SVTs Rostmacka. Gullegrisen är hennes allra första soloföreställning. Missa inte chansen att se en riktig sötnöt live in action.</h3>
      
     </div>
   )

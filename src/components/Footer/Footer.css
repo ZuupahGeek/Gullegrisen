@@ -22,6 +22,11 @@
     width: 100%;
     color: #faeefa;
 }
+   .footer-area a {
+    color: #faeefa;
+    font-size: 1.5rem;
+    /* margin-left: 1rem; */
+   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
