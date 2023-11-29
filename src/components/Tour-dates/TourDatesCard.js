@@ -25,6 +25,11 @@ function TourList() {
         "City": "Stockholm",
         "TicketLink": "https://billetto.se/e/gullegrisen-stockholm-biljetter-903762"
     },
+    {
+        "Date": "3 maj 2024",
+        "City": "Uppsala",
+        "TicketLink": "https://billetto.se/e/gullegrisen-uppsala-biljetter-903893"
+    },
     
     
 
